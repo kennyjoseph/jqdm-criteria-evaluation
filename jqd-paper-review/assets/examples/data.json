@@ -1,0 +1,52 @@
+{
+  "data_sources": [
+    {
+      "id": "S1",
+      "kind": "platform_census",
+      "text": "All public posts in the local-politics boards of the forum platform, collected through its export interface, January 2019 to December 2023.",
+      "page": 2,
+      "n": "412,360 posts by 18,902 accounts"
+    }
+  ],
+  "subsets": [
+    {
+      "text": "Prominent accounts selected by the authors as known to be active in council debates.",
+      "page": 2,
+      "n": "40 accounts"
+    }
+  ],
+  "measures": [
+    {
+      "id": "M1",
+      "kind": "count_metric",
+      "text": "Concentration: share of posts written by the most active 1% of accounts.",
+      "page": 3,
+      "supports": [
+        "H1"
+      ]
+    },
+    {
+      "id": "M2",
+      "kind": "lexicon",
+      "text": "Reference to a council decision: post contains the name of an agenda item from the council minutes.",
+      "page": 3,
+      "supports": [
+        "H2"
+      ]
+    },
+    {
+      "id": "M3",
+      "kind": "classifier",
+      "text": "Incivility coded with a fine-tuned BERT classifier, compared with two coders on 500 posts.",
+      "page": 3,
+      "supports": [
+        "H3"
+      ]
+    }
+  ],
+  "design": {
+    "kind": "descriptive",
+    "text": "Shares and distributions over the full collection; a before/after comparison of the uncivil share around March 2021 without a control design.",
+    "page": 4
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "decisions": [
+    {
+      "issue": "K1",
+      "action": "move",
+      "reason": "The gap is about the phrase \"had an effect\", which is causal wording and belongs to A2."
+    },
+    {
+      "issue": "K2",
+      "action": "merge",
+      "keep_gap": "C3-1",
+      "reason": "Both gaps describe the same generalization to local forums in general."
+    }
+  ],
+  "score_changes": [
+    {
+      "row": "C3",
+      "score": 3,
+      "reason": "After the move no gap with more than a small fix remains in this row."
+    }
+  ],
+  "calibration_justification": null
+}

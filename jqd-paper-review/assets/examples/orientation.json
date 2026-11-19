@@ -1,0 +1,23 @@
+{
+  "model": "unknown",
+  "title": "Who Posts About Local Politics? Municipal Council Discussions on the Forum Platform Stadtgespräch, 2019–2023",
+  "redact": [
+    "Jordan Example",
+    "Riley Sample",
+    "University of Nowhere, Department of Communication"
+  ],
+  "layout": "standard",
+  "paper_type": "short",
+  "primary_aim": {
+    "text": "Describe who posts about municipal council politics on a regional forum platform: how concentrated posting is, how it follows council meetings, and how common uncivil posts are.",
+    "page": 1,
+    "quote": "This paper describes three quantities"
+  },
+  "secondary_aims": [
+    {
+      "text": "Introduce a reusable pipeline for collecting forum data.",
+      "page": 2,
+      "billing": "subordinate"
+    }
+  ]
+}

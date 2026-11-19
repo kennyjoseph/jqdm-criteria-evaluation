@@ -1,0 +1,22 @@
+{
+  "critical": [
+    {
+      "gap": "D3-1",
+      "rank": 1,
+      "why": "The uncivil share and its rise rest entirely on this classifier, so readers cannot judge H3 without its error rates."
+    }
+  ],
+  "strengths": [
+    "A1+1",
+    "D1+1",
+    "P2+1"
+  ],
+  "other_changes": [
+    {
+      "gaps": [
+        "P2-1"
+      ],
+      "text": "Show the monthly variation of the uncivil share next to the before and after averages."
+    }
+  ]
+}

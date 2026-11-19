@@ -1,0 +1,14 @@
+Letter of Inquiry
+
+Question. We ask who posts about municipal council politics on the forum platform Stadtgespräch
+and how this discussion relates to the council calendar.
+
+Data. We will use all public posts in the local-politics boards of the platform from 2019 to
+2023, obtained through the export interface.
+
+Planned analyses. (1) The concentration of posting across accounts. (2) The timing of posts
+relative to council meetings. (3) The share of uncivil posts, coded with a validated
+classifier. (4) A comparison of all three quantities with a second regional platform.
+
+Output. A baseline description of local political discussion with numbers that others can
+cite, and a table of key values per municipality size class.

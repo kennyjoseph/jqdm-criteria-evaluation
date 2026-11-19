@@ -1,0 +1,43 @@
+{
+  "checks": [
+    "H1, H2 and H3 all rest on a number.",
+    "Partly: the shares come from a full collection, but variation across boards or months is not given for any of them.",
+    "No intervals are needed for the census counts; the subgroup of prominent accounts has its n (40).",
+    "Yes: 6.1% before and 8.3% after March 2021 is read as a rise without the monthly variation.",
+    "Yes for posting activity: median posts per account and the share posting once are given."
+  ],
+  "score": 2,
+  "na_reason": null,
+  "plus": [
+    {
+      "id": "P2+1",
+      "text": "Posting activity is reported as a distribution: the median account wrote 3 posts and 44% of accounts posted only once.",
+      "page": 3
+    }
+  ],
+  "gaps": [
+    {
+      "id": "P2-1",
+      "text": "The rise in the uncivil share from 6.1% to 8.3% is stated without the month-to-month variation needed to read a difference of two points.",
+      "page": 4,
+      "quote": "The share was 6.1% before the moderation change",
+      "affects": [
+        "H3"
+      ],
+      "topic": "group_difference_without_variation",
+      "fix": {
+        "kind": "analysis",
+        "size": "small",
+        "text": "Report the range of monthly shares before and after March 2021 next to the two averages; the monthly series already exists."
+      }
+    }
+  ],
+  "features": {
+    "intervals_for_headline_numbers": "not_applicable",
+    "intervals_in_prose": "not_applicable",
+    "n_for_subgroups": "present",
+    "distributions_for_skew": "present",
+    "variation_across_units": "absent"
+  },
+  "minor": []
+}

@@ -1,0 +1,16 @@
+{
+  "changes": [
+    {
+      "op": "edit_text",
+      "target": "D3-1",
+      "value": "The agreement between the incivility classifier and the two coders is described as \"high\" but no agreement or error rate is reported.",
+      "reason": "The earlier wording did not say what exactly is missing."
+    },
+    {
+      "op": "set_fix_size",
+      "target": "D3-1",
+      "value": "moderate",
+      "reason": "Reporting per-class rates needs a short analysis of the 500 coded posts, not new coding."
+    }
+  ]
+}

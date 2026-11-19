@@ -1,0 +1,28 @@
+{
+  "claims": [
+    {
+      "id": "H1",
+      "short": "Top 1% of accounts wrote 38% of posts",
+      "text": "Posting is highly concentrated: the most active 1% of accounts wrote 38% of all posts.",
+      "page": 1,
+      "quote": "the most active 1% of accounts wrote 38% of all posts",
+      "status": "firm"
+    },
+    {
+      "id": "H2",
+      "short": "61% of posts follow a council decision within a week",
+      "text": "61% of posts mention a council decision within seven days of the council meeting.",
+      "page": 1,
+      "quote": "61% of posts mention a council decision within seven days",
+      "status": "firm"
+    },
+    {
+      "id": "H3",
+      "short": "7.4% of posts are uncivil; share rose after 2021",
+      "text": "Posts classified as uncivil make up 7.4% of all posts, and the share rose after the 2021 moderation change.",
+      "page": 1,
+      "quote": "this share rose after the 2021 moderation change",
+      "status": "firm"
+    }
+  ]
+}

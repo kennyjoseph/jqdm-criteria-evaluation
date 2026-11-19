@@ -1,0 +1,32 @@
+{
+  "map": [
+    {
+      "figure": "Tab 1",
+      "supports": []
+    },
+    {
+      "figure": "Fig 1",
+      "supports": [
+        "H1"
+      ]
+    },
+    {
+      "figure": "Fig 2",
+      "supports": [
+        "H2"
+      ]
+    },
+    {
+      "figure": "Tab 2",
+      "supports": [
+        "H3"
+      ]
+    },
+    {
+      "figure": "Fig 3",
+      "supports": [
+        "H3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "promises": [
+    {
+      "id": "P1",
+      "type": "question",
+      "text": "Describe who posts about municipal council politics on the platform and how discussion relates to the council calendar.",
+      "loi_page": 1
+    },
+    {
+      "id": "P2",
+      "type": "data",
+      "text": "Use all public posts in the local-politics boards from 2019 to 2023, obtained through the export interface.",
+      "loi_page": 1
+    },
+    {
+      "id": "P3",
+      "type": "analysis",
+      "text": "Report concentration of posting, timing relative to council meetings, and the share of uncivil posts coded with a validated classifier.",
+      "loi_page": 1
+    },
+    {
+      "id": "P4",
+      "type": "analysis",
+      "text": "Compare all three quantities with a second regional platform.",
+      "loi_page": 1
+    },
+    {
+      "id": "P5",
+      "type": "output",
+      "text": "Provide a table of key values per municipality size class.",
+      "loi_page": 1
+    }
+  ]
+}

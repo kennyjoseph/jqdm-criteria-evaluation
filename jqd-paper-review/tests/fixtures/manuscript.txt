@@ -1,0 +1,99 @@
+Who Posts About Local Politics? Municipal Council Discussions on the
+Forum Platform Stadtgespräch, 2019–2023
+
+Jordan Example and Riley Sample
+University of Nowhere, Department of Communication
+jordan.example@nowhere.example
+
+Abstract
+
+We describe who posts about municipal council politics on Stadtgespräch, a regional forum
+platform in Germany, using all 412,360 public posts in its local-politics boards from January
+2019 to December 2023. Three findings stand out. First, posting is highly concentrated: the
+most active 1% of accounts wrote 38% of all posts. Second, 61% of posts mention a council
+decision within seven days of the council meeting. Third, posts classified as uncivil make up
+7.4% of all posts, and this share rose after the 2021 moderation change. We also introduce a
+reusable pipeline for collecting forum data.
+
+Keywords: local politics, online forums, concentration, incivility
+
+1 Introduction
+
+Local politics receives less attention than national politics in research on digital media
+(Miller 2018; Okafor and Lind 2020). It is commonly assumed that local forums are dominated by
+a handful of users, but no baseline exists for German municipal forums. This paper describes
+three quantities: how concentrated posting is, how closely posting follows council meetings,
+and how common uncivil posts are. All analyses are descriptive.We find that the most active 1% of accounts wrote 38% of all posts, that 61% of posts refer
+to a council decision within a week, and that 7.4% of posts are uncivil. A secondary
+contribution is a pipeline that others can reuse. Earlier estimates for national forums put
+the top-1% share at about 50% (Tanaka et al. 2019).
+
+2 Data
+
+Stadtgespräch is a forum platform with 214 municipal boards. We collected all public posts in
+the local-politics boards through the export interface of the platform. The collection covers
+412,360 posts by 18,902 accounts between January 2019 and December 2023. Accounts are not
+people: one person can hold several accounts, and we observe public posts only. Deleted posts
+are not included; the platform reports that about 3% of posts are deleted by moderators.
+
+Table 1: Scale of the data. Boards, accounts and posts per year, 2019–2023.
+
+For the analysis of prominent accounts we selected 40 accounts that we knew to be active in
+council debates. The following section describes how each quantity is measured, and Section 8
+gives further detail on the export interface.3 Measures
+
+Concentration is the share of posts written by the most active 1% of accounts. A post counts
+as referring to a council decision if it contains the name of an agenda item from the council
+minutes. Incivility is coded with a fine-tuned BERT classifier. Two coders labelled 500 posts;
+the classifier reached high agreement with the coders. We define uncivil posts as posts that
+contain insults, threats or slurs.
+
+4 Results
+
+4.1 Posting is concentrated
+
+The most active 1% of accounts wrote 38% of all posts (Figure 1). The median account wrote 3
+posts, and 44% of accounts posted only once. This is below the 50% reported for national
+forums (Tanaka et al. 2019).
+
+Figure 1: Share of posts by account activity percentile. N = 18,902 accounts. The dashed line
+marks equal shares.
+
+4.2 Posting follows council meetings
+
+61% of posts mention a council decision within seven days of the meeting (Figure 2). The share
+is similar across large and small municipalities.
+
+Figure 2: Posts per day relative to council meeting dates.4.3 Incivility
+
+Uncivil posts make up 7.4% of all posts (Table 2). The share was 6.1% before the moderation
+change in March 2021 and 8.3% afterwards. The moderation change had an effect on the tone of
+discussion, as Figure 9 shows. Among the 40 prominent accounts the share of uncivil posts is
+12%, which suggests that prominent accounts may be less civil, although the sample is small.
+
+Table 2: Share of uncivil posts by year.
+
+Figure 3: Monthly share of uncivil posts, 2019–2023.
+
+5 Discussion
+
+Posting about local politics on Stadtgespräch is concentrated, but less so than on national
+forums. Discussion follows the council calendar closely. Our results show that local forums in
+general are less concentrated than national ones. The rise in incivility is consistent with
+reports that the new moderation rules were enforced less strictly (Brandt 2022).6 Limitations
+
+Our study has limitations. The data come from one platform, and measurement error is possible.
+Because deleted posts are missing, the incivility share is likely a lower bound.
+
+7 Conclusion
+
+We described who posts about local politics on a regional forum. The most active 1% of accounts
+wrote 38% of all posts, 61% of posts follow a council decision within a week, and 7.4% of posts
+are uncivil. The pipeline we introduce can be reused for other platforms.
+
+References
+
+Brandt, K. (2022). Moderation in practice. Journal of Online Communities, 4(2), 11–29.
+Miller, A. (2018). Local news and local talk. Media Studies Quarterly, 12(1), 1–20.
+Okafor, C., & Lind, P. (2020). Municipal politics online. Digital Politics, 7(3), 200–221.
+Weber, S. (2017). Forum cultures. Network Press.

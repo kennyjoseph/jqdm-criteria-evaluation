@@ -1,0 +1,11 @@
+# Internal only: these critique colleagues' published work. Never commit them.
+example-evaluations/
+
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editors-only notes: kept in the zipped package, never in this public repo.
+for-editors.md
+CHANGES.md
