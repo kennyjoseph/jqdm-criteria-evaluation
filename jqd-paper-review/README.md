@@ -74,6 +74,6 @@ tests/
 
 ## Open items
 
-1. **Platforms.** Tested on macOS with Python 3.12, Claude Code and Claude Opus 5.5. Linux, Windows, Codex CLI, OpenCode and other models are untested.
+1. **Platforms.** Tested on macOS with Python 3.10, 3.11, 3.12 and 3.14, Claude Code and Claude Opus 5.5. Linux, Windows, Codex CLI, OpenCode and other models are untested.
 2. **Stability.** On seven published papers run twice each, 102 of 112 criterion scores matched exactly and none differed by more than one point.
 3. **Length.** An evaluation is about 2,500–3,500 words.

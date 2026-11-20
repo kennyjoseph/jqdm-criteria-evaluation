@@ -130,7 +130,7 @@ def cmd_init(args):
     st.save(workdir, state)
     run = tasks.Run(workdir, state)
     out("WARNING" if warnings else "OK",
-        f"Working directory: {workdir} (run {run_id}, depth {args.depth}, {st.get_plan(state)[-1]["no"]} steps)",
+        f"Working directory: {workdir} (run {run_id}, depth {args.depth}, {st.get_plan(state)[-1]['no']} steps)",
         f"Inputs: manuscript ({len(ms['pages'])} pages, extracted with {ms['tool']})"
         + (f", LOI ({len(docs['loi']['pages'])} pages)" if "loi" in docs else ", no LOI")
         + (f", appendix ({len(docs['appendix']['pages'])} pages)" if "appendix" in docs else ", no appendix file"),
